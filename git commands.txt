@@ -1,5 +1,6 @@
 git…
 
+help
 config --global
 add --all
 status
@@ -10,10 +11,13 @@ restore "[file...]"
 mv "" ""
 log
 log --oneline (kürzer)
+log -p (ausführlich) (q to exit)
 commit -m "[corrected name]" --amend
+reset [hashtag]
 
 ohne git…
 cd c:/...
+press up arrow to view past cmds and enter to execute
 
 
 
