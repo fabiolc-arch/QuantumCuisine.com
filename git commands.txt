@@ -1,0 +1,16 @@
+git…
+
+config --global
+add --all
+status
+commit -m "[note...]"
+commit -a -m
+diff
+restore "[file...]"
+mv "" ""
+
+ohne git…
+cd c:/...
+
+
+
