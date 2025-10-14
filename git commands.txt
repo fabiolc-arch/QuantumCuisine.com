@@ -8,6 +8,9 @@ commit -a -m
 diff
 restore "[file...]"
 mv "" ""
+log
+log --oneline (kürzer)
+commit -m "[corrected name]" --amend
 
 ohne git…
 cd c:/...
