@@ -5,7 +5,7 @@ config --global
 add --all
 status
 commit -m "[note...]"
-commit -a -m
+commit -a -m "[...]"
 diff
 restore "[file...]"
 mv "" ""
@@ -14,6 +14,10 @@ log --oneline (kürzer)
 log -p (ausführlich) (q to exit)
 commit -m "[corrected name]" --amend
 reset [hashtag]
+branch [branch name]
+branch
+siwtch [branch name]
+merge -m "[note...]" [branch name]
 
 ohne git…
 cd c:/...
