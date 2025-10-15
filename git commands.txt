@@ -17,6 +17,7 @@ reset [hashtag]
 branch
 branch [newbranchname]
 switch [newbranchname]
+merge -m "[note]" [branch name]
 
 ohne git…
 cd c:/...
