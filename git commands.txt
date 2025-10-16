@@ -14,10 +14,7 @@ log --oneline (kürzer)
 log -p (ausführlich) (q to exit)
 commit -m "[corrected name]" --amend
 reset [hashtag]
-branch [branchname]
 branch
-switch [branchname]
-merge -m "[note...]" [branchname]
 switch -c [branchnametobecreatedbythis]
 branch -d [branchname]
 branch [newbranchname]
