@@ -2,7 +2,7 @@ git…
 
 help
 config --global
-add --all
+add --all bzw add .
 status
 commit -m "[note...]"
 commit -a -m "[...]"
