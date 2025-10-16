@@ -18,6 +18,7 @@ branch [branch name]
 branch
 switch [branch name]
 merge -m "[note...]" [branch name]
+-c [branchnametobecreatedbythis]
 -d [branchname]
 branch
 branch [newbranchname]
