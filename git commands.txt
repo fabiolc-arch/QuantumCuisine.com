@@ -14,16 +14,16 @@ log --oneline (kürzer)
 log -p (ausführlich) (q to exit)
 commit -m "[corrected name]" --amend
 reset [hashtag]
-branch [branch name]
+branch [branchname]
 branch
-switch [branch name]
-merge -m "[note...]" [branch name]
+switch [branchname]
+merge -m "[note...]" [branchname]
 switch -c [branchnametobecreatedbythis]
--d [branchname]
+branch -d [branchname]
 branch
 branch [newbranchname]
 switch [newbranchname]
-merge -m "[note]" [branch name]
+merge -m "[note]" [branchname]
 
 ohne git…
 cd c:/...
