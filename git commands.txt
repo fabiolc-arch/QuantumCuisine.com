@@ -20,7 +20,6 @@ switch [branchname]
 merge -m "[note...]" [branchname]
 switch -c [branchnametobecreatedbythis]
 branch -d [branchname]
-branch
 branch [newbranchname]
 switch [newbranchname]
 merge -m "[note]" [branchname]
