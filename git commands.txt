@@ -14,10 +14,17 @@ log --oneline (kürzer)
 log -p (ausführlich) (q to exit)
 commit -m "[corrected name]" --amend
 reset [hashtag]
+<<<<<<< HEAD
 branch [branch name]
 branch
 siwtch [branch name]
 merge -m "[note...]" [branch name]
+=======
+branch
+branch [newbranchname]
+switch [newbranchname]
+merge -m "[note]" [branch name]
+>>>>>>> FixNames
 
 ohne git…
 cd c:/...
